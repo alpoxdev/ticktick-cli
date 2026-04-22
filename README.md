@@ -1,5 +1,7 @@
 # ticktick-cli
 
+![CI](https://github.com/alpoxdev/ticktick-cli/actions/workflows/ci.yml/badge.svg)
+
 A Rust CLI for the official TickTick Open API, implemented from the local official docs in `docs/ticktick-openapi.md`.
 
 ## Features

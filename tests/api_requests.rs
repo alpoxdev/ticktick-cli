@@ -2,6 +2,7 @@ use pretty_assertions::assert_eq;
 use serde_json::json;
 use ticktick_cli::api::{ApiClient, ApiRequest, HttpMethod};
 
+#[allow(clippy::too_many_arguments)]
 fn assert_request(
     request: ApiRequest,
     method: HttpMethod,
