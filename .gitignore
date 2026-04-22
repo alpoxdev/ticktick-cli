@@ -1,0 +1,19 @@
+/target
+
+# Environment and secrets
+.env
+.env.*
+*.env
+*.local
+*.secret
+*.secrets
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
